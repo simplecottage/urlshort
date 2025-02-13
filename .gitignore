@@ -1,0 +1,52 @@
+# dependencies
+node_modules
+.pnpm-store
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# next.js
+.next/
+out/
+build
+dist
+
+# nest.js
+dist/
+build/
+
+# misc
+.DS_Store
+*.pem
+.idea/
+.vscode/
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local env files
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# docker volumes
+postgres_data/
+redis_data/
+
+# os files
+.DS_Store
+Thumbs.db
